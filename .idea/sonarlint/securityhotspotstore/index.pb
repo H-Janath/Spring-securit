@@ -1,8 +1,16 @@
 
-S
-#src/main/java/org/example/Main.java,0\b\0ba1b9c7a4878802f938e331cc2d8a042087ec6b
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+h
+8src/main/java/org/example/controller/UserController.java,b\7\b713bf81ec595e3f695a79200fb78c8915c34789
+i
+9src/main/java/org/example/controller/AdminController.java,9\7\9767da272182b946253f3bb2a481a84b695a96fb
+o
+?src/main/java/org/example/AuthenticationBackendApplication.java,3\f\3f933f00fb8355b5e1ab74b207bd4cde2348d860
+r
+Bsrc/main/java/org/example/configuration/SecurityConfiguration.java,1\a\1a204fcf5a2ac32af1a10b5638015cbee45a759c
+Z
+*src/main/java/org/example/models/Role.java,4\8\4868c5a5d66f3c983e0fbca0ed47201bd711777e
