@@ -14,3 +14,5 @@ r
 Bsrc/main/java/org/example/configuration/SecurityConfiguration.java,1\a\1a204fcf5a2ac32af1a10b5638015cbee45a759c
 Z
 *src/main/java/org/example/models/Role.java,4\8\4868c5a5d66f3c983e0fbca0ed47201bd711777e
+e
+5src/main/java/org/example/models/ApplicationUser.java,4\8\48e7cb8f9db124821e94b6effd42c32a7f75da82
