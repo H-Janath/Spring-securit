@@ -16,3 +16,5 @@ Z
 *src/main/java/org/example/models/Role.java,4\8\4868c5a5d66f3c983e0fbca0ed47201bd711777e
 e
 5src/main/java/org/example/models/ApplicationUser.java,4\8\48e7cb8f9db124821e94b6effd42c32a7f75da82
+b
+2src/main/java/org/example/service/UserService.java,0\a\0a429d57c61a30e0b0d20ccf1326f3bddfab3779
