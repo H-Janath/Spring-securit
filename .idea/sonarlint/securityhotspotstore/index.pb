@@ -22,3 +22,5 @@ h
 8src/main/java/org/example/Repository/UserRepository.java,0\0\005e23089bf1e4fb24a442f891ecf104de59226c
 h
 8src/main/java/org/example/Repository/RoleRepository.java,3\7\375d31114c248b1782062cda3e794618e44140d0
+l
+<src/main/java/org/example/service/AuthenticationService.java,e\f\ef5b46ffefb199fe0afc7cb3a65d2c7eb7bf8936
