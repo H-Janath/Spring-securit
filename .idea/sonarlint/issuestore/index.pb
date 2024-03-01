@@ -24,3 +24,7 @@ h
 8src/main/java/org/example/Repository/RoleRepository.java,3\7\375d31114c248b1782062cda3e794618e44140d0
 l
 <src/main/java/org/example/service/AuthenticationService.java,e\f\ef5b46ffefb199fe0afc7cb3a65d2c7eb7bf8936
+r
+Bsrc/main/java/org/example/controller/AuthenticationController.java,2\1\21bc0038255ad652b00a3442f6ade6c4db71e4d1
+e
+5src/main/java/org/example/models/RegistrationDto.java,f\5\f577a4fc1a61b816fa8a747ea2e968979250894b
