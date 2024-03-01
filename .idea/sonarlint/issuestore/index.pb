@@ -28,3 +28,5 @@ r
 Bsrc/main/java/org/example/controller/AuthenticationController.java,2\1\21bc0038255ad652b00a3442f6ade6c4db71e4d1
 e
 5src/main/java/org/example/models/RegistrationDto.java,f\5\f577a4fc1a61b816fa8a747ea2e968979250894b
+h
+8src/main/java/org/example/utils/KeyGeneratorUtility.java,6\1\61901d553e573f606db42727738d094b98944589
