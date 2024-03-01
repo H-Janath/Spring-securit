@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin("*")
 public class UserController {
 
-    @PostMapping("/")
+    @GetMapping("/")
     public String helloUserController(){
         return "User access level";
     }
