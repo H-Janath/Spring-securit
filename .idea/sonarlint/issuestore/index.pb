@@ -18,3 +18,5 @@ e
 5src/main/java/org/example/models/ApplicationUser.java,4\8\48e7cb8f9db124821e94b6effd42c32a7f75da82
 b
 2src/main/java/org/example/service/UserService.java,0\a\0a429d57c61a30e0b0d20ccf1326f3bddfab3779
+h
+8src/main/java/org/example/Repository/UserRepository.java,0\0\005e23089bf1e4fb24a442f891ecf104de59226c

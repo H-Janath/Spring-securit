@@ -2,13 +2,15 @@ package org.example.models;
 import jakarta.persistence.*;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "user")
+@Table(name="users")
 public class ApplicationUser implements UserDetails {
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "user_id")
@@ -18,12 +20,12 @@ public class ApplicationUser implements UserDetails {
 
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable(
-            name = "user_role_junction",
-            joinColumns = {@JoinColumn(name="user_id")},
-            inverseJoinColumns = {@JoinColumn(name = "role_id" )}
+            name="user_role_junction",
+            joinColumns = {@JoinColumn(name = "user_id")},
+            inverseJoinColumns = {@JoinColumn(name = "role_id")}
     )
-
     private Set<Role> authorities;
+
     public ApplicationUser(){
         super();
         this.authorities = new HashSet<Role>();
@@ -37,10 +39,10 @@ public class ApplicationUser implements UserDetails {
         this.authorities = authorities;
     }
 
-    public Integer getUserId(Integer userId) {
+    public Integer getUserId(){
         return this.userId;
     }
-    public void setUserId(Integer integer){
+    public void setUserId(Integer userId){
         this.userId = userId;
     }
 
@@ -48,14 +50,16 @@ public class ApplicationUser implements UserDetails {
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return this.authorities;
     }
-
     public void setAuthorities(Set<Role> authorities){
         this.authorities = authorities;
     }
+
+
     @Override
     public String getPassword() {
         return this.password;
     }
+
     public void setPassword(String password){
         this.password = password;
     }
@@ -67,8 +71,6 @@ public class ApplicationUser implements UserDetails {
     public void setUsername(String username){
         this.username = username;
     }
-
-
 
     @Override
     public boolean isAccountNonExpired() {

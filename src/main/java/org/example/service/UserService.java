@@ -19,7 +19,7 @@ public class UserService implements UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         System.out.println("In the user details service");
-        if(username.equals("Ethen")) throw new UsernameNotFoundException("Not Ether");
+        if(!username.equals("Ethen")) throw new UsernameNotFoundException("Not Ether");
 
         Set<Role> role = new HashSet<>();
         role.add(new Role(1,"USER"));
